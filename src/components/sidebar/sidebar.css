@@ -1,0 +1,20 @@
+.Sidebar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #2154a2;
+}
+.Sidebar img {
+  margin: 0;
+  width: 150px;
+  height: 150px;
+}
+.Sidebar .info ul {
+  display: flex;
+  flex-direction: row;
+}
+.Sidebar .info ul li {
+  list-style: none;
+  margin-left: 20px;
+}/*# sourceMappingURL=sidebar.css.map */

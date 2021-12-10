@@ -1,0 +1,34 @@
+$blue: #2E3244;
+$gray: #C5C6C6;
+$white: #ffffff;
+$font1: 'Genos', sans-serif;
+$font2: 'Cinzel', serif;
+$shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+
+
+.Sidebar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100px;
+    background-color: #2154a2;
+
+    img{
+        margin: 0;
+        width:150px;
+        height:150px;
+    }
+
+    .info{
+        ul{
+            display: flex;
+            flex-direction: row;
+
+            li{
+                list-style: none;
+                margin-left: 20px;
+            }
+        }
+    }
+}
